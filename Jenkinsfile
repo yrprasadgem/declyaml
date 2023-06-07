@@ -18,7 +18,7 @@ pipeline {
                 checkout([
                     $class: 'GitSCM', 
                     branches: [[name: '*/main']], 
-                    userRemoteConfigs: [[url: 'https://github.com/yrprasadgem/jenkins-minimal-cicd.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/yrprasadgem/declyaml.git']]
                 ])
             }
         }
