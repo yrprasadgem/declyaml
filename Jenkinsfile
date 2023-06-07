@@ -50,7 +50,7 @@ pipeline {
             steps {
                 input(message: 'Deploy to production?', ok: 'Deploy')                
                 // Deployment steps to the production environment 
-                // changed the some comment observe it should trigger in a minute
+                // changed the comment observe it should trigger in a minute
             }
         }
     }
