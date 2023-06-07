@@ -37,6 +37,9 @@ pipeline {
             }
         }
         stage('Build Deploy Code') {
+            when {
+                branch "dev"
+            }
             steps {
                 sh """
                 echo "Building Artifact"
